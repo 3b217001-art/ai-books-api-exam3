@@ -1,0 +1,13 @@
+# This file defines attributes for path-specific settings in the repository.
+# Auto detect text files and perform LF normalization
+* text=auto
+*.py linguist-language=Python
+*.md linguist-language=Markdown
+*.txt linguist-language=Text
+*.yml linguist-language=YAML
+
+# Set default behavior for merge conflicts
+*.py merge=union
+
+# Ensure consistent line endings
+* text=auto
